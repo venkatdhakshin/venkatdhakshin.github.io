@@ -1,0 +1,197 @@
+header h1 {
+    text-align: center;
+    color: dimgray;
+}
+
+.container {
+margin: 0px auto;
+        width: 71%;
+
+}
+
+.top_list {
+margin: 10px auto;
+        width: 71%;
+    
+}
+
+.hits
+{
+    text-align: center;
+   margin: 0px auto;
+        width: 69.4%; 
+
+}
+
+.hits h2 {
+    
+    display:inline-block;
+    margin-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #968269;
+    background-color: darkgrey;
+    border-style:solid;
+    border-radius: 5px;
+}
+
+.song_list
+{
+    width: 200px;
+    height: 255px;
+    background-color:#c1a887;
+    margin: 12px;
+    margin-top: 2px;
+    padding: 6px;
+    border-radius: 5px;
+    float:left;
+ 
+}
+
+.song_list h3
+{
+    margin-top: 0px;
+}
+
+.img1
+{
+width:100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.song_list h2{
+    margin-top: 5px;
+    
+}
+
+.song_list h3 b{
+    margin-bottom: 0px;
+}
+
+
+.songs_a {
+    margin: 8px auto;
+        width: 71%;
+    text-align: center;
+    
+}
+
+.song_cover {
+    
+    width:28%;
+    height: 35%;
+    border-style:inset;
+    border-color:darkgray;
+    border-width: thick;
+    
+
+}
+
+.songs_d {
+    margin: auto;
+    margin-right: 33%;
+    width:26%;
+    color:#a7deef;
+       
+}
+
+.songs_l {
+
+margin: 8px auto;
+width: 71%;    
+}
+.songs_l table{
+    margin-left: 15%;
+    
+}
+
+#play{
+margin: 0px auto;
+width: 10%;
+    text-align: center;
+    margin-right: 45%;
+    display: block;
+    
+}
+#play h3{
+border-style: solid;
+    border-color: dimgray;
+    border-radius: 2px;
+}
+#play a{
+    text-decoration: none;
+    color: #545556;
+}
+
+table .box h3{
+    background-color:gray;
+    color:#a7deef;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-style: inset;
+    border-color:darkgray;
+    text-align: center;
+}
+
+.current{
+    color:chocolate
+}
+
+table .box1 h3{
+    background-color:gray;
+    color:burlywood;
+    margin-left: 30px;
+    border-style:outset;
+    border-color:darkgray;
+padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.singers h4{
+    margin-left: 50px;    
+
+}
+
+
+table .box1 a{
+    text-decoration: none;
+}
+
+body
+{
+ 
+}
+
+#menu li a
+{
+    display: block;
+    text-decoration: none;
+    
+    
+}
+
+#menu li a:hover
+{
+    color:white;
+           background-color: #6d7691;
+     
+
+}
+
+.bg {
+ color:darkslategray;
+}
+
+li
+{
+    list-style: none;
+    float: left;
+    margin-left: 100px;
+    margin-right: 40px;
+    
+}

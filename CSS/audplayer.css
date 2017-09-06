@@ -1,0 +1,56 @@
+header h1 {
+    text-align: center;
+    color: dimgray;
+}
+
+
+li{
+           text-align: left;
+            list-style-type: decimal;
+        }
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:darkslateblue;
+        }
+
+#audioPlayer{
+    border-style: solid;
+    border-color: dimgray;
+}
+        #mov_lab{
+            margin: 0px auto;
+            width: 50%;
+            margin-top: 5%;
+            padding: 10px;
+            border-style:outset;
+            
+        }
+        
+        #mlab{
+            margin: 0px auto;
+            width: 70%;
+            margin-right: 50px;
+        }
+        
+#mlab h3{
+    width: 70%;
+    padding-left: 90px;
+}
+        #content{
+            margin: 0px auto;
+            width: 70%;
+            text-align: center;
+        }
+        
+.pl_list{
+    text-align: left;
+}
+#line{
+    line-height: 70%;
+}
