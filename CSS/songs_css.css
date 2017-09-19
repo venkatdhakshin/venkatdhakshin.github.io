@@ -4,10 +4,15 @@ header h1 {
       font-family: 'Playfair Display SC', serif;
 
     }
+
+html{
+    margin-top: 0px;
+    min-height: 100%;
+}
 body{
     background-color: #c7c9cc;
-    
-    
+    margin-top: 0px;
+    height: 100%;
 }
 
 .container {
@@ -28,9 +33,9 @@ width: 98%;
     position: absolute;
     margin-top: 143px;
     margin-left: 6px;
-    z-index: 1;
     font-family: 'Open Sans', sans-serif;
 font-size:14;
+    z-index: 1;
     background-image: linear-gradient(to top,#eff1f2,#cdd2d8);
 }
 
@@ -84,7 +89,7 @@ margin: 10px auto;
 .song_list
 {
     width: 200px;
-    height: 255px;
+    height: 235px;
     background-color:#b1b2b5;
     margin: 12px;
     margin-top: 2px;
@@ -94,21 +99,22 @@ margin: 10px auto;
  
 }
 
-.song_list h3
+.song_list h2
 {
-    margin-top: 0px;
+    margin-top: 9px;
+    font-size: 17.5;
 }
+.top_list .song_list .big{
+    width: 105%;
+    margin-left: -4.8px;
+}
+
 
 .img1
 {
 width:100%;
     height: auto;
     border-radius: 5px;
-    
-}
-
-.song_list h2{
-    margin-top: 5px;
     
 }
 

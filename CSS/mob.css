@@ -1,4 +1,4 @@
-@media screen and (max-width:320px)
+@media screen and (max-width:995px)
 {
     header h1 {
     text-align: center;
@@ -8,56 +8,44 @@
     }
 body{
     background-color: #c7c9cc;
-    
 }
 
 .container {
     margin: 0px auto;
-    width: 94.5%;
+    width: 98.4%;
     margin-top: -8.5px;
-    height: 100px;
+    height: 125px;
     margin-left: 0px;
     position: fixed;
     opacity: 0.8;
     filter: alpha(opacity=80);
     z-index: 2;
         background-color: #eff1f2;  
-    font-size: 10;
+    font-size: 16;
 }
 .move{
     margin: 0px auto;
-width: 94.5%;
+width: 98.4%;
     position: absolute;
-    margin-top: 92px;
+    margin-top: 118px;
     margin-left: 0px;
-    z-index: 1;
     font-family: 'Open Sans', sans-serif;
+    z-index: 1;
     background-image: linear-gradient(to top,#eff1f2,#cdd2d8);
 }
 
-.container1
-{
-    margin: 0px auto;
-        width: 60%;
-    height: 100%;
-    border-left-style: ridge;
-    border-right-style: ridge;
     
-        
-
-}
 
 .top_list {
 margin: 10px auto;
-        width: 100%;
-    margin-left: 1px;
-    margin-top: 15px;
+        width: 70%;
+    margin-left: 150px;
+    margin-top: 10px;
     align-content: center;
-    
+    position: relative;
 }
 
 .top_list a{
-
 }
 
 .hits
@@ -65,7 +53,6 @@ margin: 10px auto;
     text-align: center;
    margin: 0px auto;
         width: 69.4%; 
-
 }
 
 .hits h2 {
@@ -80,25 +67,19 @@ margin: 10px auto;
     background-color: #b1b2b5;
     border-style:solid;
     border-radius: 5px;
-    font-size: 10;
+    font-size: 16;
 }
 
 .song_list
 {
-    width: 95px;
-    height: 110px;
+    width: 185px;
+    height: 210px;
     background-color:#b1b2b5;
     margin: 12px;
     margin-top: 2px;
     padding: 6px;
     border-radius: 5px;
     float:left;
- 
-}
-
-.song_list h3
-{
-    margin-top: 0px;
 }
 
 .img1
@@ -111,12 +92,9 @@ width:100%;
   
 .song_list h2{
     margin-top: 5px;
-    font-size: 8;
+    font-size: 15;
 }
 
-.song_list h3 b{
-    margin-bottom: 0px;
-}
 
 
 .songs_a {
@@ -250,17 +228,13 @@ table .box1 a{
     text-decoration: none;
 }
 
-    #menu{
-        align-self: center;
-    }
 #menu li a
 {
     display: block;
     text-decoration: none;
     font-family: 'Lora', serif;
     color: black;
-    
-    
+    height: 24px;
 }
 
 #menu li a:hover
@@ -272,6 +246,15 @@ table .box1 a{
 
 }
 
+ #menu1 li
+{
+    margin-top: -10px;
+    list-style: none;
+    float: left;
+        clear: both;
+    height: 10px;
+}
+
 .bg {
  color:darkslategray;
     width: 70px;
@@ -279,37 +262,30 @@ table .box1 a{
 
 .bg1{
     position: relative;
-    right: 320px;
-    width:40px;
+    right: 100px;
+    bottom: 2px;
+    width:60px;
 }
 .bg2{
     position: relative;
-    right: 73px;
-    bottom: 37.6px;
-    width:40px;
+    right: -215px;
+    bottom: 2px;
+    width:66px;
 }
  .bg3{
     position: relative;
-    right: 7px;
-     bottom: 75px;
-    width:40px;
+    right: -360px;
+     bottom: 2px;
+    width:60px; 
 }
 .bg4{
     position: relative;
-    right: -50px;
-    bottom: 112px;
-    width:60px;
+    right: -500px;
+    bottom: 2px;
+    width:100px;
 }
 
     
-li
-{
-    list-style: none;
-    float: left;
-    margin-left: 100px;
-    margin-right: 40px;
-    
-}
 nav{
     height: 65px;
     margin-bottom: 10px;
