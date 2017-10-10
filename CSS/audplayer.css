@@ -1,7 +1,7 @@
 header h1 {
     text-align: center;
-    color: dimgray;
-    font-family: sans-serif;
+    color: black;
+    font-family: 'Playfair Display SC', serif;
 }
 body{
     background-color: #c7c9cc;
