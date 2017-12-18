@@ -7,15 +7,21 @@
     <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
     <link href="../CSS/audplayer.css" rel="stylesheet" type="text/css">
             <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 
 </head>
-<body>
+<body id="audplayer">
     <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
 <div class="move1">    
 <div id="mov_lab">
     <div id="mlab">
-    <h3><b>Movie : Baahubali</b></h3>
-        <h3><b>Music : M.M. Keeravani</b></h3>
+        <dl>
+            <dt><b>Movie:</b></dt>
+               <dd>Baahubali</dd>
+        <dt><b>Music:</b></dt> 
+            <dd>M.M. Keeravani</dd>
+            </dl>
 </div>
         <div id="content">
     <audio src="" controls id="audioPlayer" title="Baahubali-2">
@@ -23,19 +29,19 @@
     </audio>
             <div id="line">
     <ul id="playlist">
-        <li class="current-song"><a href="../songs/Baahubali-2-(Tamil)/Bale%20Bale%20Bale.mp3"><h3>Bale Bale Bale</h3></a></li>
+        <li class="current-song"><a href="../songs/Baahubali-2-(Tamil)/Bale%20Bale%20Bale.mp3">Bale Bale Bale</a></li>
         <h4 class="pl_list">Singers : Daler Mehndi &amp; M.M.Keeravani</h4>
         <hr>
-        <li><a href="../songs/Baahubali-2-(Tamil)/Kanna_Nee_Thoongadaa.mp3"><h3>Kanna_Nee_Thoongadaa</h3></a></li>
+        <li><a href="../songs/Baahubali-2-(Tamil)/Kanna_Nee_Thoongadaa.mp3">Kanna_Nee_Thoongadaa</a></li>
         <h4 class="pl_list">Singers : Nayana Nair</h4>
         <hr>
-        <li><a href="../songs/Baahubali-2-(Tamil)/Orey_Oar_Ooril.mp3"><h3>Orey_Oar_Ooril</h3></a></li>
+        <li><a href="../songs/Baahubali-2-(Tamil)/Orey_Oar_Ooril.mp3">Orey_Oar_Ooril</a></li>
         <h4 class="pl_list">Singers : Mohana &amp; Deepu</h4>
         <hr>
-        <li><a href="../songs/Baahubali-2-(Tamil)/Oru_Yaagam.mp3"><h3>Oru_Yaagam</h3></a></li>
+        <li><a href="../songs/Baahubali-2-(Tamil)/Oru_Yaagam.mp3">Oru_Yaagam</a></li>
         <h4 class="pl_list">Singers : Kaala Bhairava</h4>
         <hr>
-        <li><a href="../songs/Baahubali-2-(Tamil)/Vandhaai_Ayya.mp3"><h3>Vandhaai_Ayya</h3></a></li>
+        <li><a href="../songs/Baahubali-2-(Tamil)/Vandhaai_Ayya.mp3">Vandhaai_Ayya</a></li>
         <h4 class="pl_list">Singers : Kaala Bhairava</h4>
         <hr>
             </ul>
@@ -49,5 +55,7 @@
         audioPlayer();
     </script>
     </div>
+    <script src="../JS/jquery-3.2.1.min.js"></script>
+    <script src="../JS/Nav_aud.js"></script>
 </body>
 </html>

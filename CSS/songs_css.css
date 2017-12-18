@@ -1,42 +1,59 @@
-header h1 {
+header a{
+    text-decoration: none;
+    display: block;
+    width: 13%;
+    position: relative;
+    left: 30;
+    top: 10;
+    
+}
+header a h1 {
     text-align: center;
-    color: black;
+    color: white;
       font-family: 'Playfair Display SC', serif;
-
+width: 100%;
+    position: relative;
+    top: -2;
+    font-size: 33;
+    display: block;
     }
 
-html{
-    margin-top: 0px;
-    min-height: 100%;
+html {
+
 }
 body{
-    background-color: #c7c9cc;
-    margin-top: 0px;
+    background-image: url(/Images/pexels-photo-290660.jpeg);
+    background-attachment: fixed;
+    background-size:100%;
     height: 100%;
 }
 
-.container {
+nav{
     margin: 0px auto;
-    width: 98%;
+    width: 100%;
     margin-top: -8.5px;
-    height: 150px;
-    margin-left: 6px;
+    height: 100px;
+    margin-left: -7.6px;
     position: fixed;
     opacity: 0.8;
     filter: alpha(opacity=80);
     z-index: 2;
-        background-color: #eff1f2;  
+    
+          
 }
+
 .move{
+    
+
     margin: 0px auto;
-width: 98%;
+width: 100%;
     position: absolute;
-    margin-top: 143px;
-    margin-left: 6px;
+    margin-top: 93px;
+    margin-left: -7.6px;
     font-family: 'Open Sans', sans-serif;
 font-size:14;
     z-index: 1;
-    background-image: linear-gradient(to top,#eff1f2,#cdd2d8);
+    
 }
 
 .container1
@@ -44,8 +61,7 @@ font-size:14;
     margin: 0px auto;
         width: 60%;
     height: 100%;
-    border-left-style: ridge;
-    border-right-style: ridge;
+    
     
         
 
@@ -54,7 +70,7 @@ font-size:14;
 .top_list {
 margin: 10px auto;
         width: 72%;
-    margin-left: 188px;
+    margin-left: 190px;
     margin-top: 15px;
     
     
@@ -78,24 +94,26 @@ margin: 10px auto;
     margin-bottom: 5px;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: dimgray;
-    background-color: #b1b2b5;
-    border-style:solid;
-    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: silver;
+    background-color:rgba(0,0,0,0.5);
+    font-family: 'Lato', sans-serif;
+    font-size: 22
+    
+    
 }
 
 .song_list
 {
     width: 200px;
     height: 235px;
-    background-color:#b1b2b5;
-    margin: 12px;
+    background-color:silver;
+    margin: 14px;
     margin-top: 2px;
     padding: 6px;
-    border-radius: 5px;
     float:left;
+    border-radius: 4px;
  
 }
 
@@ -105,8 +123,8 @@ margin: 10px auto;
     font-size: 17.5;
 }
 .top_list .song_list .big{
-    width: 105%;
-    margin-left: -4.8px;
+    width: 103%;
+    margin-left: -3px;
 }
 
 
@@ -114,7 +132,7 @@ margin: 10px auto;
 {
 width:100%;
     height: auto;
-    border-radius: 5px;
+    
     
 }
 
@@ -142,26 +160,41 @@ width:100%;
 }
 
 .songs_d {
-    margin: auto;
-    margin-right: 32%;
-    width:26%;
-    color:dimgray;
-       
+    margin:0px auto;
+    width:23%;
+    color:black;
+    padding:10px 10px 10px 15px;
+    background-color: silver;
+    border-radius: 4px;
+}
+.songs_d dl dd{
+    position: relative;
+    top: -22px;
+    width: 69%;
+left: 50px;
 }
 
-.songs_l {
-margin: 8px auto;
-width: 71%;    
-}
-.songs_l table{
-    margin-left: 15%;
+.songs_d dl dt{
     
 }
 
+.songs_l {
+margin: 0px auto;
+width: 100%;
+font-family: 'Lato', sans-serif;
+}
+.songs_l table{
+    margin:0px auto;
+    width: 50%;
+}
+
 #play1 h2{
-border-style: solid;
-    border-color: dimgray;
+    background-color: rgba(0,0,0,0.5);
     border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
 }
 #play1{
 margin: 0px auto;
@@ -176,18 +209,16 @@ width: 30%;
 #artist {
     text-decoration: none;
     text-align: center;
-    
-    
 }
 #artist h3{
-    border-style: solid;
+    background-color: rgba(0,0,0,0.5);
     width: 50%;
     margin-left: 25%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: dimgrey;
-    border-radius: 7px;
-    color: aliceblue;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #play{
@@ -199,52 +230,73 @@ width: 10%;
     color: #545556;
     
 }
-#play h3{
-border-style: solid;
-    border-color: dimgray;
-    border-radius: 2px;
+#play {
+background-color: rgba(0,0,0,0.5);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
 }
 #play a{
     text-decoration: none;
-    color: #545556;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20;
 }
 
-table .box h3{
-    background-color:gray;
-    color:whitesmoke;
-    margin-left: 50px;
-    margin-right: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-style: solid;
-    border-color:darkgray;
-    border-radius: 7px;
+table .box{
     text-align: center;
 }
 
-.current{
-    color:chocolate;
-    font-family: 'Lora', serif;;
-        
+#spac td{
+    padding-bottom: 15px;
 }
 
-table .box1 h3{
+table .box b{
+    background-color:silver;
+    color:black;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 4px;
+    font-size: 18;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+}
+    
+#menu{
+    width: 100%;
+    margin-left: 650px;
+}
+
+table .box1{
+}
+
+table .box1 a{
     background-color:gray;
-    color:burlywood;
-    margin-left: -40px;
-    border-style:solid;
-    border-color:darkgray;
-padding-left: 10px;
-    padding-right: 10px;
-
+    color:white;
+    padding: 5px;
+    margin-left: 50px;
+    font-size: 18;
+    text-align: center;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
 }
+
+
 
 .singers h4{
-    margin-left: 50px;    
-
+    margin-top: 4px;
+    margin-left: 5px;    
+    color: silver;
+    text-align: center;
 }
-table{
-    margin-right: 10%;
+ table{
+    margin: 0px auto;
+    width: 100%;
+    padding-top: 10px;
+     border-radius: 4px;
+    background-color:rgba(0,0,0,0.5);
 }
 
 table .box1 a{
@@ -252,14 +304,17 @@ table .box1 a{
 }
 
 
-#menu li a
+nav #menu li 
 {
-    display: block;
+    display:inline-block;
     text-decoration: none;
-    font-family: 'Lora', serif;
-    color: black;
-    
-    
+    font-family: 'Lato', sans-serif;
+    margin-top: -60;
+    position: relative;
+    top: -37;
+    font-size: 18;
+    list-style: none;
+    margin-left: 80px;
 }
 
 #menu li a:hover
@@ -272,25 +327,47 @@ table .box1 a{
 }
 
 .bg {
- color:darkslategray;
-    
+ color: white;
+text-decoration: none;
+    position: relative;
 }
 
-.bg1{
-    margin-left: 194px;
+.bgg{
+    position: relative;
+    left: 10px;
+    bottom: 59px;
+    margin-left: 634px;
 }
+
+.bgg1{
+    position: relative;
+    left: 10px;
+    top: 1px;
+    margin-left: 634px;
+}
+
+.bgg2{
+    
+    margin-top: -41px
+}
+
 li
 {
-    list-style: none;
-    float: left;
-    margin-left: 100px;
-    margin-right: 40px;
     
 }
-nav{
-    height: 65px;
-    margin-bottom: 10px;
+nav.shrink
+{
+    background-color: rgba(0,0,0,0.5);
+    height: 70px;
+    padding-top:0px;
 }
-nav ul{
-    
+nav.shrink header a h1{
+    font-size: 30px;
+    top: -15px;
+    color: white;
+}
+nav.shrink #menu li a{
+    color: white;
+    font-size: 17;
+    top:-15px;
 }

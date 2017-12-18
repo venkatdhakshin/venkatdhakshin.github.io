@@ -7,15 +7,20 @@
     <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
     <link href="../CSS/audplayer.css" rel="stylesheet" type="text/css">
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
-<body>
+<body id="audplayer">
     <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
     <div class="move1">
 <div id="mov_lab">
     <div id="mlab">
-    <h3><b>Movie : Vivegam</b></h3>
-        <h3><b>Music : Anirudh</b></h3>
+        <dl>
+    <dt><b>Movie:</b></dt>
+            <dd>Vivegam</dd>
+    <dt><b>Music:</b></dt>
+            <dd>Anirudh</dd>
+            </dl>
 </div>
         <div id="content">
     <audio src="" controls id="audioPlayer" title="Vivegam">
@@ -23,22 +28,22 @@
     </audio>
             <div id="line">
     <ul id="playlist">
-        <li class="current-song"><a href="../songs/Vivegam/Never_Give_Up-5StarMusiQ.Com.mp3"><h3>Never Give Up</h3></a></li>
+        <li class="current-song"><a href="../songs/Vivegam/Never_Give_Up-5StarMusiQ.Com.mp3">Never Give Up</a></li>
         <h4 class="pl_list">Singers :Raja Kumari</h4>
         <hr>
-        <li><a href="../songs/Vivegam/Surviva-5StarMusiQ.Com.mp3"><h3>Surviva</h3></a></li>
+        <li><a href="../songs/Vivegam/Surviva-5StarMusiQ.Com.mp3">Surviva</a></li>
         <h4 class="pl_list">Singers : Yogi b &amp; Anirudh</h4>
         <hr>
-        <li><a href="../songs/Vivegam/AK_Theme_Music-5StarMusiQ.Com.mp3"><h3>AK Theme Music</h3></a></li>
+        <li><a href="../songs/Vivegam/AK_Theme_Music-5StarMusiQ.Com.mp3">AK Theme Music</a></li>
         <h4 class="pl_list">Singers : Instrumental</h4>
         <hr>
-        <li><a href="../songs/Vivegam/Kadhalaada_Kadhal_Aada-5StarMusiQ.Com.mp3"><h3>Kaadhalaada</h3></a></li>
+        <li><a href="../songs/Vivegam/Kadhalaada_Kadhal_Aada-5StarMusiQ.Com.mp3">Kaadhalaada</a></li>
         <h4 class="pl_list">Singers : pradeep,shasa tripathi,anirudh</h4>
         <hr>
-        <li><a href="../songs/Vivegam/Thalai_Viduthalai-5StarMusiQ.Com.mp3"><h3>Thalai viduthalai</h3></a></li>
+        <li><a href="../songs/Vivegam/Thalai_Viduthalai-5StarMusiQ.Com.mp3">Thalai viduthalai</a></li>
         <h4 class="pl_list">Singers : Anirudh,Harish</h4>
         <hr>
-<li><a href="../songs/Vivegam/Veriyera_Vidhimara-5StarMusiQ.Com.mp3"><h3>Veriyera Vidhimaara</h3></a></li>
+<li><a href="../songs/Vivegam/Veriyera_Vidhimara-5StarMusiQ.Com.mp3">Veriyera Vidhimaara</a></li>
         <h4 class="pl_list">Singers : Manasi,poorvi</h4>
 
             </ul>
@@ -52,5 +57,8 @@
         audioPlayer();
     </script>
         </div>
+    <script src="../JS/jquery-3.2.1.min.js"></script>
+    <script src="../JS/Nav_aud.js"></script>
+
 </body>
 </html>

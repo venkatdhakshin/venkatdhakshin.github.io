@@ -7,15 +7,20 @@
     <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
     <link href="../CSS/audplayer.css" rel="stylesheet" type="text/css">
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
-<body>
+<body id="audplayer">
     <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
     <div class="move1">
 <div id="mov_lab">
     <div id="mlab">
-    <h3><b>Movie : Vikram Vedha</b></h3>
-        <h3><b>Music : Sam C.S</b></h3>
+        <dl>
+    <dt><b>Movie:</b></dt>
+            <dd>Vikram Vedha</dd>
+    <dt><b>Music:</b></dt>
+            <dd>Sam C.S</dd>
+            </dl>
 </div>
         <div id="content">
     <audio src="" controls id="audioPlayer" title="vikram vedha">
@@ -23,31 +28,31 @@
     </audio>
             <div id="line">
     <ul id="playlist">
-        <li class="current-song"><a href="../songs/Vikram-Vedha/Yethu%20Dharmam.mp3"><h3>Yethu Dharmam</h3></a></li>
+        <li class="current-song"><a href="../songs/Vikram-Vedha/Yethu%20Dharmam.mp3">Yethu Dharmam</a></li>
         <h4 class="pl_list">Singers : Chennai Orchestra</h4>
         <hr>
-        <li><a href="../songs/Vikram-Vedha/Tasakku_Tasakku.mp3"><h3>Tasakku_Tasakku</h3></a></li>
+        <li><a href="../songs/Vikram-Vedha/Tasakku_Tasakku.mp3">Tasakku_Tasakku</a></li>
         <h4 class="pl_list">Singers : Mukesh, M.L.R Karthikeyan &amp; Guna</h4>
         <hr>
-        <li><a href="../songs/Vikram-Vedha/Oru_Katha_Sollatta.mp3"><h3>Oru_Katha_Sollatta</h3></a></li>
+        <li><a href="../songs/Vikram-Vedha/Oru_Katha_Sollatta.mp3">Oru_Katha_Sollatta</a></li>
         <h4 class="pl_list">Singers : Sam cs &amp; Sethu Thankachan</h4>
         <hr>
-        <li><a href="../songs/Vikram-Vedha/Pogatha_Yennavittu.mp3"><h3>Pogatha_Yennavittu</h3></a></li>
+        <li><a href="../songs/Vikram-Vedha/Pogatha_Yennavittu.mp3">Pogatha_Yennavittu</a></li>
         <h4 class="pl_list">Singers : Pradeep Kumar &amp; Neha Venugopal</h4>
         <hr>
-        <li><a href="../songs/Vikram-Vedha/Yaanji.mp3"><h3>Yaanji</h3></a></li>
+        <li><a href="../songs/Vikram-Vedha/Yaanji.mp3">Yaanji</a></li>
         <h4 class="pl_list">Singers : Anirudh Ravichander &amp; Shakthisree Gopalan</h4>
         <hr>
-        <li><a href="../songs/Vikram-Vedha/Yethu_Nyayam.mp3"><h3>Yethu_Nyayam</h3></a></li>
+        <li><a href="../songs/Vikram-Vedha/Yethu_Nyayam.mp3">Yethu_Nyayam</a></li>
         <h4 class="pl_list">Singers : Sam cs</h4>
         <hr>
-        <li><a href="../songs/Vikram-Vedha/Karuppu_Vellai.mp3"><h3>Karuppu_Vellai</h3></a></li>
+        <li><a href="../songs/Vikram-Vedha/Karuppu_Vellai.mp3">Karuppu_Vellai</a></li>
         <h4 class="pl_list">Singers : Sivam &amp; Sam cs</h4>
         <hr>
-        <li><a href="../songs/Vikram-Vedha/Idhu_Emosion.mp3"><h3>Idhu_Emosion</h3></a></li>
+        <li><a href="../songs/Vikram-Vedha/Idhu_Emosion.mp3">Idhu_Emosion</a></li>
         <h4 class="pl_list">Singers : Chennai Orchestra</h4>
         <hr>
-        <li><a href="../songs/Vikram-Vedha/Ghetto_Chase.mp3"><h3>Ghetto_Chase</h3></a></li>
+        <li><a href="../songs/Vikram-Vedha/Ghetto_Chase.mp3">Ghetto_Chase</a></li>
     <h4 class="pl_list">Singers : Megavarshini &amp; Avantika</h4>
             </ul>
                 </div>
@@ -60,5 +65,8 @@
         audioPlayer();
     </script>
         </div>
+    <script src="../JS/jquery-3.2.1.min.js"></script>
+    <script src="../JS/Nav_aud.js"></script>
+
 </body>
 </html>

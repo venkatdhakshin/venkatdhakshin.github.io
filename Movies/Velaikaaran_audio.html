@@ -7,15 +7,20 @@
     <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
     <link href="../CSS/audplayer.css" rel="stylesheet" type="text/css">
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
-<body>
+<body id="audplayer">
     <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
     <div class="move1">
 <div id="mov_lab">
     <div id="mlab">
-    <h3><b>Movie : Velaikaaran</b></h3>
-        <h3><b>Music : Anirudh</b></h3>
+        <dl>
+    <dt><b>Movie:</b></dt>
+            <dd>Velaikaaran</dd>
+    <dt><b>Music:</b></dt>
+            <dd>Anirudh</dd>
+            </dl>
 </div>
         <div id="content">
     <audio src="" controls id="audioPlayer" title="Velaikaaran">
@@ -23,9 +28,22 @@
     </audio>
             <div id="line">
     <ul id="playlist">
-        <li class="current-song"><a href="../songs/Velaikaaran/Karuthavanlaam_Galeejaam.mp3"><h3>Karuthavanalam Galeejam</h3></a></li>
+        <li class="current-song"><a href="../songs/Velaikaaran/Karuthavanlaam_Galeejaam.mp3">Karuthavanalam Galeejam</a></li>
         <h4 class="pl_list">Singers :Anirudh</h4>
         <hr>
+        <li><a href="../songs/Velaikaaran/Vaa_Velaikkara.mp3">Vaa Velaikkara</a></li>
+        <h4 class="pl_list">Singers :Shakthisree Gopalan, Bjorn Surrao</h4>
+        <hr>
+<li><a href="../songs/Velaikaaran/Ezhu_Velaikkara_Indre.mp3">Ezhu Velaikkara Indre</a></li>
+        <h4 class="pl_list">Singers :Siddharth Mahadevan</h4>
+        <hr>
+<li><a href="../songs/Velaikaaran/Idhayane_Ennai_Enna.mp3">Idhayane Ennai Enna</a></li>
+        <h4 class="pl_list">Singers :Anirudh Ravichander, Neeti Mohan</h4>
+        <hr>
+<li><a href="../songs/Velaikaaran/Iraiva_Ennai_Thedi.mp3">Iraiva Ennai Thedi</a></li>
+        <h4 class="pl_list">Singers :Anirudh Ravichander, Jonita Gandhi</h4>
+        <hr>
+
                     </ul>
                 </div>
     </div>
@@ -37,5 +55,8 @@
         audioPlayer();
     </script>
         </div>
+        <script src="../JS/jquery-3.2.1.min.js"></script>
+    <script src="../JS/Nav_aud.js"></script>
+
 </body>
 </html>

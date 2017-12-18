@@ -7,15 +7,20 @@
     <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
     <link href="../CSS/audplayer.css" rel="stylesheet" type="text/css">
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
-<body>
+<body id="audplayer">
     <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
     <div class="move1">
 <div id="mov_lab">
     <div id="mlab">
-    <h3><b>Movie : Thaana Serntha Koottam</b></h3>
-        <h3><b>Music : Anirudh</b></h3>
+        <dl>
+    <dt><b>Movie:</b></dt>
+            <dd>Thaana Serntha Koottam</dd>
+    <dt><b>Music:</b></dt>
+            <dd>Anirudh</dd>
+            </dl>
 </div>
         <div id="content">
     <audio src="" controls id="audioPlayer" title="Tsk">
@@ -23,8 +28,11 @@
     </audio>
             <div id="line">
     <ul id="playlist">
-        <li class="current-song"><a href="../songs/Thaana%2520Serntha%2520Koottam/Naana_Thaana_Veena_Ponaa.mp3"><h3>Naana Thaana</h3></a></li>
+        <li class="current-song"><a href="../songs/Thaana_Serntha_Koottam/Naana_Thaana_Veena_Ponaa.mp3">Naana Thaana</a></li>
         <h4 class="pl_list">Singers :Anirudh</h4>
+        <hr>
+        <li><a href="../songs/Thaana_Serntha_Koottam/Naana_Thaana_Veena_Ponaa.mp3">Sodakku Mela Sodakku</a></li>
+        <h4 class="pl_list">Singers :Anthony Daasan</h4>
         <hr>
                     </ul>
                 </div>
@@ -37,5 +45,7 @@
         audioPlayer();
     </script>
         </div>
+    <script src="../JS/jquery-3.2.1.min.js"></script>
+    <script src="../JS/Nav_aud.js"></script>
 </body>
 </html>

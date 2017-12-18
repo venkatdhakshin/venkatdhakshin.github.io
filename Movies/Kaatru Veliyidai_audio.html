@@ -7,15 +7,20 @@
     <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
     <link href="../CSS/audplayer.css" rel="stylesheet" type="text/css">
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
-<body>
+<body id="audplayer">
     <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
     <div class="move1">
 <div id="mov_lab">
     <div id="mlab">
-    <h3><b>Movie : Kaatru Veliyidai</b></h3>
-        <h3><b>Music : AR Rahman</b></h3>
+        <dl>
+    <dt><b>Movie:</b></dt>
+            <dd>Kaatru Veliyidai</dd>
+    <dt><b>Music:</b></dt>
+            <dd>AR Rahman</dd>
+            </dl>
 </div>
         <div id="content">
     <audio src="" controls id="audioPlayer" title="Kaatru Veliyidai Playlist">
@@ -23,22 +28,22 @@
     </audio>
             <div id="line">
     <ul id="playlist">
-        <li class="current-song"><a href="../songs/Kaatru_Veliyidai_160kbps/Azhagiye.mp3"><h3>Azhagiye</h3></a></li>
+        <li class="current-song"><a href="../songs/Kaatru_Veliyidai_160kbps/Azhagiye.mp3">Azhagiye</a></li>
         <h4 class="pl_list">Singers : Haricharan &amp; Arjun Chandi</h4>
         <hr>
-        <li><a href="../songs/Kaatru_Veliyidai_160kbps/Nallai%20Allai.mp3"><h3>Nallai Allai</h3></a></li>
+        <li><a href="../songs/Kaatru_Veliyidai_160kbps/Nallai%20Allai.mp3">Nallai Allai</a></li>
         <h4 class="pl_list">Singers : Sathya Prakash</h4>
         <hr>
-        <li><a href="../songs/Kaatru_Veliyidai_160kbps/Saarattu%20Vandiyila.mp3"><h3>Saarattu Vandiyila</h3></a></li>
+        <li><a href="../songs/Kaatru_Veliyidai_160kbps/Saarattu%20Vandiyila.mp3">Saarattu Vandiyila</a></li>
         <h4 class="pl_list">Singers : Tippu, AR Reihana&amp; Nikita gandhi</h4>
         <hr>
-        <li><a href="../songs/Kaatru_Veliyidai_160kbps/Tango%20Kelaayo.mp3"><h3>Tango Kelaayo</h3></a></li>
+        <li><a href="../songs/Kaatru_Veliyidai_160kbps/Tango%20Kelaayo.mp3">Tango Kelaayo</a></li>
         <h4 class="pl_list">Singers : Haricharan &amp; Diwakar</h4>
         <hr>
-        <li><a href="../songs/Kaatru_Veliyidai_160kbps/Jugni.mp3"><h3>Jugni</h3></a></li>
+        <li><a href="../songs/Kaatru_Veliyidai_160kbps/Jugni.mp3">Jugni</a></li>
         <h4 class="pl_list">Singers : AR Rahman &amp; Tejinder Singh</h4>
         <hr>
-        <li><a href="../songs/Kaatru_Veliyidai_160kbps/Vaan%20Varuvan.mp3"><h3>Vaan Varuvaan</h3></a></li>
+        <li><a href="../songs/Kaatru_Veliyidai_160kbps/Vaan%20Varuvan.mp3">Vaan Varuvaan</a></li>
         <h4 class="pl_list">Singers : Shashaa Tirupati</h4>
         <hr>
             </ul>
@@ -52,5 +57,7 @@
         audioPlayer();
     </script>
         </div>
+    <script src="../JS/jquery-3.2.1.min.js"></script>
+    <script src="../JS/Nav_aud.js"></script>
 </body>
 </html>

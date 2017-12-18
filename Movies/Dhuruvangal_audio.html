@@ -7,15 +7,20 @@
     <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
     <link href="../CSS/audplayer.css" rel="stylesheet" type="text/css">
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
-<body>
+<body id="audplayer">
     <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
     <div class="move1">
 <div id="mov_lab">
     <div id="mlab">
-    <h3><b>Movie : Dhuruvangal Pathinaaru</b></h3>
-        <h3><b>Music : Jakes Bejoy</b></h3>
+        <dl>
+    <dt><b>Movie:</b></dt>
+            <dd>Dhuruvangal Pathinaaru</dd>
+    <dt><b>Music:</b></dt>
+            <dd>Jakes Bejoy</dd>
+            </dl>
 </div>
         <div id="content">
     <audio src="" controls id="audioPlayer" title="Dhuruvangal Pathinaaru">
@@ -23,10 +28,10 @@
     </audio>
             <div id="line">
     <ul id="playlist">
-        <li class="current-song"><a href="../songs/Dhuruvangal_Pathinaaru_V2_160kbps/Kaatril_Oru_Rajaali-5StarMusiQ.Com.mp3"><h3>Kaatril_Oru_Rajaali</h3></a></li>
+        <li class="current-song"><a href="../songs/Dhuruvangal_Pathinaaru_V2_160kbps/Kaatril_Oru_Rajaali-5StarMusiQ.Com.mp3">Kaatril_Oru_Rajaali</a></li>
         <h4 class="pl_list">Singers : Lawrence, Kavitha Thomas</h4>
         <hr>
-        <li><a href="../songs/Dhuruvangal_Pathinaaru_V2_160kbps/Uthira_Kaayangal-5StarMusiQ.Com.mp3"><h3>Uthira Kaayangal</h3></a></li>
+        <li><a href="../songs/Dhuruvangal_Pathinaaru_V2_160kbps/Uthira_Kaayangal-5StarMusiQ.Com.mp3">Uthira Kaayangal</a></li>
         <h4 class="pl_list">Singers : Vijay Prakash</h4>
                     </ul>
                 </div>
@@ -39,5 +44,7 @@
         audioPlayer();
     </script>
         </div>
+    <script src="../JS/jquery-3.2.1.min.js"></script>
+    <script src="../JS/Nav_aud.js"></script>
 </body>
 </html>

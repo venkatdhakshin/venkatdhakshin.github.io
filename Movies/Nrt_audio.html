@@ -7,15 +7,20 @@
     <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
     <link href="../CSS/audplayer.css" rel="stylesheet" type="text/css">
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
-<body>
+<body id="audplayer">
     <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
     <div class="move1">
 <div id="mov_lab">
     <div id="mlab">
-    <h3><b>Movie : Naanum Rowdy Dhaan</b></h3>
-        <h3><b>Music : Anirudh</b></h3>
+        <dl>
+    <dt><b>Movie:</b></dt>
+            <dd>Naanum Rowdy Dhaan</dd>
+    <dt><b>Music:</b></dt>
+            <dd>Anirudh</dd>
+            </dl>
 </div>
         <div id="content">
     <audio src="" controls id="audioPlayer" title="Naanum Rowdy Dhaan">
@@ -23,19 +28,19 @@
     </audio>
             <div id="line">
     <ul id="playlist">
-        <li class="current-song"><a href="../songs/nrt/Kannaane%20Kanne%20-%20TamilTunes.com.mp3"><h3>Kannaane Kanne</h3></a></li>
+        <li class="current-song"><a href="../songs/nrt/Kannaane%20Kanne%20-%20TamilTunes.com.mp3">Kannaane Kanne</a></li>
         <h4 class="pl_list">Singers : Sean Roldan</h4>
         <hr>
-        <li><a href="../songs/nrt/Naanum%20Rowdy%20Dhaan%20-%20TamilTunes.com.mp3"><h3>Naanum Rowdy Dhaan</h3></a></li>
+        <li><a href="../songs/nrt/Naanum%20Rowdy%20Dhaan%20-%20TamilTunes.com.mp3">Naanum Rowdy Dhaan</a></li>
         <h4 class="pl_list">Singers : Benny Dhayal</h4>
         <hr>
-        <li><a href="../songs/nrt/Neeyum_Naanum_160kbps-StarMusiQ.Com.mp3"><h3>Neeyum Naanum</h3></a></li>
+        <li><a href="../songs/nrt/Neeyum_Naanum_160kbps-StarMusiQ.Com.mp3">Neeyum Naanum</a></li>
         <h4 class="pl_list">Singers : Anirudh Ravichander, Neeti Mohan</h4>
         <hr>
-        <li><a href="../songs/nrt/Thangamey_160kbps-StarMusiQ.Com.mp3"><h3>Thangamey</h3></a></li>
+        <li><a href="../songs/nrt/Thangamey_160kbps-StarMusiQ.Com.mp3">Thangamey</a></li>
         <h4 class="pl_list">Singers : Anirudh</h4>
         <hr>
-        <li><a href="../songs/nrt/Yennai_Maatrum_Kaadhale-StarMusiQ.Com.mp3"><h3>Yennai Maatrum Kadhale</h3></a></li>
+        <li><a href="../songs/nrt/Yennai_Maatrum_Kaadhale-StarMusiQ.Com.mp3">Yennai Maatrum Kadhale</a></li>
         <h4 class="pl_list">Singers : Sid Sriram, Anirudh</h4>
         
             </ul>
@@ -49,5 +54,7 @@
         audioPlayer();
     </script>
         </div>
+    <script src="../JS/jquery-3.2.1.min.js"></script>
+    <script src="../JS/Nav_aud.js"></script>
 </body>
 </html>

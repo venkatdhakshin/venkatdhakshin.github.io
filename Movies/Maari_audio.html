@@ -7,15 +7,20 @@
     <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
     <link href="../CSS/audplayer.css" rel="stylesheet" type="text/css">
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
-<body>
+<body id="audplayer">
     <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
     <div class="move1">
 <div id="mov_lab">
     <div id="mlab">
-    <h3><b>Movie : Maari</b></h3>
-        <h3><b>Music : Anirudh</b></h3>
+        <dl>
+    <dt><b>Movie:</b></dt>
+            <dd>Maari</dd>
+    <dt><b>Music:</b></dt>
+            <dd>Anirudh</dd>
+            </dl>
 </div>
         <div id="content">
     <audio src="" controls id="audioPlayer" title="Maari">
@@ -23,22 +28,22 @@
     </audio>
             <div id="line">
     <ul id="playlist">
-        <li class="current-song"><a href="../songs/maari/Bagulu%20Odayum%20Dagulu%20Mari%20(The%20Return%20of%20Maari).mp3"><h3>Bagulu Odayum Dagulu Mari </h3></a></li>
+        <li class="current-song"><a href="../songs/maari/Bagulu%20Odayum%20Dagulu%20Mari%20(The%20Return%20of%20Maari).mp3">Bagulu Odayum Dagulu Mari </a></li>
         <h4 class="pl_list">Singers : Dhanush</h4>
         <hr>
-        <li><a href="../songs/maari/Donu%20Donu%20Donu%20(The%20Dons%20Romance).mp3"><h3>Donu Donu Donu</h3></a></li>
+        <li><a href="../songs/maari/Donu%20Donu%20Donu%20(The%20Dons%20Romance).mp3">Donu Donu Donu</a></li>
         <h4 class="pl_list">Singers : Anirudh Ravichander & Alisha Thomas</h4>
         <hr>
-        <li><a href="../songs/maari/Maari%20Thara%20Local%20(Here%20Comes%20Maari).mp3"><h3>Maari Thara Local</h3></a></li>
+        <li><a href="../songs/maari/Maari%20Thara%20Local%20(Here%20Comes%20Maari).mp3">Maari Thara Local</a></li>
         <h4 class="pl_list">Singers : Anirudh Ravichander & Dhanush</h4>
         <hr>
-        <li><a href="../songs/maari/Oru%20Vidha%20Aasai%20(The%20Temptation%20of%20Maari).mp3"><h3>Oru Vidha Aasai</h3></a></li>
+        <li><a href="../songs/maari/Oru%20Vidha%20Aasai%20(The%20Temptation%20of%20Maari).mp3">Oru Vidha Aasai</a></li>
         <h4 class="pl_list">Singers : Vineeth Sreenivasan</h4>
         <hr>
-        <li><a href="../songs/maari/Thappa%20Dhaan%20Theriyum%20(Maaris%20Karuthu).mp3"><h3>Thappa Dhaan Theriyum</h3></a></li>
+        <li><a href="../songs/maari/Thappa%20Dhaan%20Theriyum%20(Maaris%20Karuthu).mp3">Thappa Dhaan Theriyum</a></li>
         <h4 class="pl_list">Singers : Dhanush, Chinna Ponnu & Magizhini Manimaaran</h4>
         <hr>
-        <li><a href="../songs/maari/The%20Maari%20Swag.mp3"><h3>The Maari Swag</h3></a></li>
+        <li><a href="../songs/maari/The%20Maari%20Swag.mp3">The Maari Swag</a></li>
         <h4 class="pl_list">Singers : Anirudh</h4>
 
             </ul>
@@ -52,5 +57,8 @@
         audioPlayer();
     </script>
         </div>
+    <script src="../JS/jquery-3.2.1.min.js"></script>
+    <script src="../JS/Nav_aud.js"></script>
+
 </body>
 </html>

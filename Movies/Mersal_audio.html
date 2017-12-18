@@ -7,15 +7,20 @@
     <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
     <link href="../CSS/audplayer.css" rel="stylesheet" type="text/css">
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
-<body>
+<body id="audplayer">
     <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
     <div class="move1">
 <div id="mov_lab">
     <div id="mlab">
-    <h3><b>Movie : Mersal</b></h3>
-        <h3><b>Music : AR Rahman</b></h3>
+        <dl>
+    <dt><b>Movie:</b></dt>
+            <dd>Mersal</dd>
+    <dt><b>Music:</b></dt>
+            <dd>AR Rahman</dd>
+            </dl>
 </div>
         <div id="content">
     <audio src="" controls id="audioPlayer" title="Mersal">
@@ -23,16 +28,16 @@
     </audio>
             <div id="line">
     <ul id="playlist">
-        <li class="current-song"><a href="../songs/Mersal/Aalaporaan%20Thamizhan.mp3"><h3>Aalaporaan</h3></a></li>
+        <li class="current-song"><a href="../songs/Mersal/Aalaporaan%20Thamizhan.mp3"><b>Aalaporaan</b></a></li>
         <h4 class="pl_list">Singers :Khailash kher,Sathya prakash, pradeep&amp; Pooja</h4>
         <hr>
-        <li><a href="../songs/Mersal/Neethanae_Neethanae.mp3"><h3>Neethane</h3></a></li>
+        <li><a href="../songs/Mersal/Neethanae_Neethanae.mp3"><b>Neethane</b></a></li>
         <h4 class="pl_list">Singers : AR Rahman&amp; Shreya Goshal</h4>
         <hr>
-        <li><a href="../songs/Mersal/Mersal_Arasan.mp3"><h3>Mersal arasan</h3></a></li>
+        <li><a href="../songs/Mersal/Mersal_Arasan.mp3"><b>Mersal arasan</b></a></li>
         <h4 class="pl_list">Singers : G.V.Prakash,Naresh iyer,Vishwa prasad&amp;Saranya srinivas</h4>
         <hr>
-        <li><a href="../songs/Mersal/Maacho_Ennacho.mp3"><h3>Maacho</h3></a></li>
+        <li><a href="../songs/Mersal/Maacho_Ennacho.mp3"><b>Maacho</b></a></li>
         <h4 class="pl_list">Singers : Sid sriram &amp; Swetha mohan</h4>
         <hr>
             </ul>
@@ -46,5 +51,8 @@
         audioPlayer();
     </script>
         </div>
+    <script src="../JS/jquery-3.2.1.min.js"></script>
+    <script src="../JS/Nav_aud.js"></script>
+
 </body>
 </html>

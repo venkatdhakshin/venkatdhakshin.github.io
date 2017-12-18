@@ -7,38 +7,43 @@
     <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
     <link href="../CSS/audplayer.css" rel="stylesheet" type="text/css">
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
-<body>
+<body id="audplayer">
     <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
     <div class="move1">
 <div id="mov_lab">
     <div id="mlab">
-    <h3><b>Movie : Power Paandi</b></h3>
-        <h3><b>Music : Sean Rolden</b></h3>
-</div>
+        <dl>
+    <dt><b>Movie:</b></dt>
+            <dd>Power Paandi</dd>
+    <dt><b>Music:</b></dt>
+            <dd>Sean Rolden</dd>
+            </dl>
+    </div>
         <div id="content">
     <audio src="" controls id="audioPlayer" title="Power Paandi">
         Sorry, your browser doesn't support html5!
     </audio>
             <div id="line">
     <ul id="playlist">
-        <li class="current-song"><a href="../songs/Power_Paandi_160kbps/Paarthen-5StarMusiQ.Com.mp3"><h3>Paarthen</h3></a></li>
+        <li class="current-song"><a href="../songs/Power_Paandi_160kbps/Paarthen-5StarMusiQ.Com.mp3">Paarthen</a></li>
         <h4 class="pl_list">Singers : Sean Roldan, Shweta Mohan</h4>
         <hr>
-        <li><a href="../songs/Power_Paandi_160kbps/Soorakkathu-5StarMusiQ.Com.mp3"><h3>Soorakkathu</h3></a></li>
+        <li><a href="../songs/Power_Paandi_160kbps/Soorakkathu-5StarMusiQ.Com.mp3">Soorakkathu</a></li>
         <h4 class="pl_list">Singers : Dhanush, Chorus</h4>
         <hr>
-        <li><a href="../songs/Power_Paandi_160kbps/Vaanam-5StarMusiQ.Com.mp3"><h3>Vaanam</h3></a></li>
+        <li><a href="../songs/Power_Paandi_160kbps/Vaanam-5StarMusiQ.Com.mp3">Vaanam</a></li>
         <h4 class="pl_list">Singers : Ananthu, Chorus</h4>
         <hr>
-        <li><a href="../songs/Power_Paandi_160kbps/Veesum_Kaathodathan-5StarMusiQ.Com.mp3"><h3>Veesum_Kaathodathan</h3></a></li>
+        <li><a href="../songs/Power_Paandi_160kbps/Veesum_Kaathodathan-5StarMusiQ.Com.mp3">Veesum_Kaathodathan</a></li>
         <h4 class="pl_list">Singers : Sean Roldan, Anthony Daasan</h4>
         <hr>
-        <li><a href="../songs/Power_Paandi_160kbps/Venpani_Malare_(Female)-5StarMusiQ.Com.mp3"><h3>Venpani_Malare_(Female)</h3></a></li>
+        <li><a href="../songs/Power_Paandi_160kbps/Venpani_Malare_(Female)-5StarMusiQ.Com.mp3">Venpani_Malare_(Female)</a></li>
         <h4 class="pl_list">Singers : Swetha Mohan</h4>
         <hr>
-        <li><a href="../songs/Power_Paandi_160kbps/Venpani_Malare_(Male)-5StarMusiQ.Com.mp3"><h3>Venpani_Malare_(male)</h3></a></li>
+        <li><a href="../songs/Power_Paandi_160kbps/Venpani_Malare_(Male)-5StarMusiQ.Com.mp3">Venpani_Malare_(male)</a></li>
         <h4 class="pl_list">Singers : Sean Roldan</h4>
 
             </ul>
@@ -52,5 +57,8 @@
         audioPlayer();
     </script>
         </div>
+    <script src="../JS/jquery-3.2.1.min.js"></script>
+    <script src="../JS/Nav_aud.js"></script>
+
 </body>
 </html>
