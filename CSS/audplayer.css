@@ -1,3 +1,9 @@
+@media only screen and (max-width: 995px) {
+    header h1{
+        font-size: 43px;
+    }
+}
+
 header h1 {
     margin: 0px auto;
     width: 100%;
@@ -77,10 +83,11 @@ li{
             margin-right: 95px;
             font-family: 'Open Sans', sans-serif;
             color: white;
+            font-size: 18px;
         }
 
 #mlab dl{
-    font-size: 18px;
+    
 }
 
 

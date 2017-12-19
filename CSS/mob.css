@@ -1,295 +1,254 @@
-@media screen and (max-width:995px)
-{
-    header h1 {
-    text-align: center;
-    color: black;
-      font-family: 'Playfair Display SC', serif;
-
-    }
-body{
-    background-color: #c7c9cc;
+@media only screen and (max-width: 995px) {
+    header a{
+    text-decoration: none;
+    display: block;
+    width: 25%;
+    position: relative;
+    left: 5;
+    top: 0;
 }
-
-.container {
-    margin: 0px auto;
-    width: 96%;
-    margin-top: -8.5px;
-    height: 250px;
-    margin-left: 11px;
-    position: fixed;
-    opacity: 0.8;
-    filter: alpha(opacity=80);
-    z-index: 2;
-        background-color: #eff1f2;  
-    font-size: 26;
-}
-.move{
-    margin: 0px auto;
-width: 96%;
-    position: absolute;
-    margin-top: 240px;
-    margin-left: 11px;
-    font-family: 'Open Sans', sans-serif;
-    z-index: 1;
-    background-image: linear-gradient(to top,#eff1f2,#cdd2d8);
-}
-
+ 
     
+    header a h1 {
+    text-align: center;
+    color: white;
+      font-family: 'Playfair Display SC', serif;
+width: 100%;
+    position: relative;
+    top: -2;
+    font-size: 43;
+    display: block;
+    }
+
+    nav #menu li {
+    display:inline-block;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    margin-top: -60;
+    position: relative;
+    top: -63;
+    font-size: 25;
+    list-style: none;
+    margin-left: 60px;
+}
+
+    #menu{
+    width: 100%;
+    margin-left: 320px;
+}
 
 .top_list {
-margin: 10px auto;
-        width: 97%;
-    margin-left: 18px;
-    margin-top: 10px;
-    align-content: center;
-    position: relative;
+margin: 0px auto;
+        width: 100%;
+    margin-left: 6px;
+    margin-top: 40px;
 }
-
-.top_list a{
-}
-
-.hits
-{
-    text-align: center;
-   margin: 0px auto;
-        width: 69.4%; 
-}
-
-.hits h2 {
-    
+ 
+    .hits h2 {
+    margin: 0px auto;
     display:inline-block;
-    margin-bottom: 5px;
+    margin-top: 15px;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: dimgray;
-    background-color: #b1b2b5;
-    border-style:solid;
-    border-radius: 5px;
-    font-size: 26;
-}
-
-.song_list
-{
-    width: 265px;
-    height: 310px;
-    background-color:#b1b2b5;
-    margin: 12px;
-    margin-top: 2px;
-    padding: 6px;
-    border-radius: 5px;
-    float:left;
-}
-
-.img1
-{
-width:100%;
-    height: auto;
-    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: silver;
+    background-color:rgba(0,0,0,0.5);
+    font-family: 'Lato', sans-serif;
+    font-size: 29;
+    
     
 }
-  
-.song_list h2{
-    margin-top: 10px;
-    font-size: 21;
+
+    .song_list
+{
+    width: 280px;
+    height: 315px;
+    background-color:silver;
+    margin: 14px;
+    margin-top: 2px;
+    padding: 6px;
+    float:left;
+    border-radius: 4px;
+ 
 }
 
-
-
-.songs_a {
-    margin: 8px auto;
-        width: 71%;
+.song_list h2
+{
+    margin-top: 3px;
+    font-size: 24;
+}
+.top_list .song_list .big{
+    width: 105%;
+    margin-left: -6px;
+}
+nav.shrink
+{
+    background-color: rgba(0,0,0,0.5);
+    height: 80px;
+    padding-top:0px;
+}
+nav.shrink header a h1{
+    font-size: 38px;
+    top: -17px;
+    color: white;
+}
+nav.shrink #menu li a{
+    color: white;
+    font-size: 22;
+    top:-13px;
+    left:35;
+}
+    .songs_d {
+    margin:0px auto;
+    width:43%;
+    color:black;
+        font-size: 22;
+    padding:10px 10px 10px 15px;
+    background-color: silver;
+    border-radius: 4px;
+}
+.songs_d dl dd{
+    position: relative;
+    top: -28px;
+    width: 69%;
+left: 80px;
+}
+#play{
+margin: 0px auto;
+width: 20%;
+    text-align: center;
+    
+    display: block;
+    color: #545556;
+    
+}
+#play {
+background-color: rgba(0,0,0,0.5);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+#play a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 26;
+}
+table .box b{
+    background-color:silver;
+    color:black;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 4px;
+    font-size: 24;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     
 }
-
-.song_cover {
-    
-    width:28%;
-    height: 35%;
-    border-style:inset;
-    border-color:darkgray;
-    border-width: thick;
-    
-
+table .box1 a{
+    background-color:gray;
+    color:white;
+    padding: 5px;
+    margin-left: 50px;
+    font-size: 24;
+    text-align: center;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.songs_d {
-    margin: auto;
-    margin-right: 32%;
-    width:26%;
-    color:dimgray;
-       
-}
 
-.songs_l {
-margin: 8px auto;
-width: 71%;    
+
+.singers h4{
+    margin-top: 4px;
+    margin-left: 5px;    
+    color: silver;
+    text-align: center;
+    font-size: 22;
+}
+ table{
+    margin: 0px auto;
+    padding-top: 10px;
+     padding-right: 10px;
+     border-radius: 4px;
+    background-color:rgba(0,0,0,0.5);
 }
 .songs_l table{
-    margin-left: 15%;
-    
+    margin:0px auto;
+    width: 70%;
+}
+#mov_lab{
+            margin: 0px auto;
+            width: 70%;
+            margin-top: 2%;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: rgba(0,0,0,0.5);
+            
+        }
+    #playlist li a{
+            font-size: 25px;
+            color:silver;
+            font-style: bold;
+            text-decoration: none;
+        }
+    #mlab {
+            margin: 0px auto;
+            width: 50%;
+            margin-right: 122px;
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            font-size: 24px;
+        }
+    #mlab dd{
+    width: 100%;
+    position: relative;
+    left:50px;
+    bottom:32px;
+}
+    .pl_list{
+    text-align: left;
+    color: silver;
+    width: 112%;
+    font-size: 20px;
 }
 
-#play1 h2{
-border-style: solid;
-    border-color: dimgray;
-    border-radius: 2px;
+.shrink h1
+{
+    margin-left: 0px auto;
+    width: 100%;
+    height: 60px;
+margin-top: -8px;
+    margin-left: -7.6px;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    font-size: 40px;
+    background-color: rgba(0,0,0,0.5);
 }
-#play1{
+    #play1{
 margin: 0px auto;
 width: 30%;
     text-align: center;
     margin-right: 34.5%;
     display: block;
     color: #545556;
-    margin-top: 80px;
-    
-}
-#artist {
-    text-decoration: none;
-    text-align: center;
-    
+    margin-top: 70px;
+        font-size: 24;
     
 }
 #artist h3{
-    border-style: solid;
-    width: 50%;
-    margin-left: 25%;
+    background-color: rgba(0,0,0,0.5);
+    width: 60%;
+    margin-left: 21.5%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: dimgrey;
-    border-radius: 7px;
-    color: aliceblue;
-}
-
-#play{
-margin: 0px auto;
-width: 10%;
-    text-align: center;
-    margin-right: 45%;
-    display: block;
-    color: #545556;
-    
-}
-#play h3{
-border-style: solid;
-    border-color: dimgray;
-    border-radius: 2px;
-}
-#play a{
-    text-decoration: none;
-    color: #545556;
-}
-
-table .box h3{
-    background-color:gray;
-    color:whitesmoke;
-    margin-left: 50px;
-    margin-right: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-style: solid;
-    border-color:darkgray;
-    border-radius: 7px;
-    text-align: center;
-}
-
-.current{
-    color:chocolate;
-    font-family: 'Lora', serif;;
-        
-}
-
-    .current1{
-     margin-left: 6px   
-    }    
-table .box1 h3{
-    background-color:gray;
-    color:burlywood;
-    margin-left: -40px;
-    border-style:solid;
-    border-color:darkgray;
-padding-left: 10px;
-    padding-right: 10px;
-
-}
-
-.singers h4{
-    margin-left: 50px;    
-
-}
-table{
-    margin-right: 10%;
-}
-
-table .box1 a{
-    text-decoration: none;
-}
-
-#menu li a
-{
-    display: block;
-    text-decoration: none;
-    font-family: 'Lora', serif;
-    color: black;
-    height: 34px;
-}
-
-#menu li a:hover
-{
-    color:white;
-           background-color: #6d7691;
-    transition:all 0.35s;
-     
-
-}
-
- #menu1 li
-{
-    margin-top: -10px;
-    list-style: none;
-    float: left;
-        clear: both;
-    height: 10px;
-}
-
-.bg {
- color:darkslategray;
-}
-
-.bg1{
-    position: relative;
-    right: 240px;
-    bottom: 2px;
-    width:88px;
-}
-.bg2{
-    position: relative;
-    right: -145px;
-    bottom: 2px;
-    width:106px;
-}
- .bg3{
-    position: relative;
-    right: -360px;
-     bottom: 2px;
-    width:96px; 
-}
-.bg4{
-    position: relative;
-    right: -560px;
-    bottom: 2px;
-    width:160px;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23;
 }
 
     
-nav{
-    height: 65px;
-    margin-bottom: 10px;
-}
-nav ul{
-    
-}
 }
