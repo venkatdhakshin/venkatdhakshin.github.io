@@ -75,8 +75,8 @@ font-size:14;
 
 .top_list {
 margin: 0px auto;
-        width: 72%;
-    margin-top: 15px;  
+        width: 80%;
+    margin-top: 5px;  
 }
 
 .top_list a{
@@ -109,11 +109,11 @@ margin: 0px auto;
 
 .song_list
 {
-    width: 200px;
-    height: 235px;
+    width: 19%;
+    height: 240px;
     background-color:silver;
-    margin: 14px;
-    margin-top: 2px;
+    margin-left: 3.9%;
+    margin-top: 20px;
     padding: 6px;
     float:left;
     border-radius: 4px;
@@ -316,7 +316,7 @@ nav #menu li
     top: -37;
     font-size: 18;
     list-style: none;
-    margin-left: 80px;
+    margin-left: 6%;
 }
 
 #menu li a:hover
