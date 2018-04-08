@@ -3,7 +3,7 @@
         font-size: 43px;
     }
     body{
-    background-image: url(/Images/pexels-photo-577769.jpeg);
+    background-image: url(../Images/pexels-photo-577769.jpeg);
     background-attachment: fixed;
     background-repeat:round;
     background-size:100%;
@@ -22,30 +22,32 @@ background-image: url(../Images/bg_audpla.jpeg);
 header h1 {
     margin: 0px auto;
     width: 100%;
-    margin-left: -7.6px;
+    margin-top: 10px;
     text-align: center;
-    color: white;
+    color: #3b5998;
     font-family: 'Playfair Display SC', serif;
 }
 body{
-    background-image: url(../Images/pexels-photo-577769.jpeg);
+    background-color: white;
     background-size: 100%;
     background-attachment: fixed;
 }
 
 #audplayer{
-background-image: url(../Images/bg_audpla.jpeg);
+background-color: white;
     background-attachment: fixed;
     background-size: 100%;
     
 }
 
 .aud_design{
+    background:linear-gradient(#eff1f4,#f7f8f9);
     margin: 0px auto;
+    margin-top: -8.5px;
+    margin-left: -7.6px;
         width: 100%;
+    height: 70px;
     position: fixed;
-    opacity: 0.8;
-    filter: alpha(opacity=80);
     z-index: 2;
     
 }
@@ -54,29 +56,34 @@ background-image: url(../Images/bg_audpla.jpeg);
 width: 100%;
     margin-left: -7.6px;
     position: absolute;
-    margin-top: 88px;
+    margin-top: 68px;
     z-index: 1;
+    background-color:#edeff2;;
     font-family: 'Open Sans', sans-serif;
 }
 
 li{
            text-align: left;
             list-style-type: decimal;
-    color: white;
+    color: #3b5998;
+    
         }
         #playlist{
             list-style: none;
         }
         #playlist li a{
             font-size: 19px;
-            color:silver;
-            font-style: bold;
+            color:#3b5998;
             text-decoration: none;
         }
         #playlist .current-song a{
-            color:cornflowerblue;
-            font-style: bold;
+            color:dimgray;
         }
+
+#playlist li{
+    font-weight: bold;
+}
+
 
 #audioPlayer{
     border-style: solid;
@@ -88,7 +95,7 @@ li{
             margin-top: 2%;
             padding: 10px;
             border-radius: 4px;
-            background-color: rgba(0,0,0,0.5);
+            background-color: ;
             
         }
         
@@ -97,7 +104,7 @@ li{
             width: 50%;
             margin-right: 95px;
             font-family: 'Open Sans', sans-serif;
-            color: white;
+            color: #3b5998;
             font-size: 18px;
         }
 
@@ -124,9 +131,8 @@ li{
         
 .pl_list{
     text-align: left;
-    color: silver;
+    color: #3b5998;
     width: 112%;
-    
 }
 #line{
     line-height: 70%;
@@ -138,16 +144,20 @@ hr{
     margin-left: 0px;
 }
 
-.shrink h1
+.aud_design.shrink
 {
-    margin-left: 0px auto;
-    width: 100%;
-    height: 50px;
-margin-top: -8px;
-    margin-left: -7.6px;
-    text-align: center;
-    color: white;
-    padding-top: 12px;
-    font-size: 30px;
-    background-color: rgba(0,0,0,0.5);
+        height: 50px;
+margin-top: -15px;
+        text-align: center;
+    padding-top: 8px;
+        background:#3b5998;
 }
+.aud_design.shrink h1
+{
+    font-size: 30px;
+    margin-top: 3.5px;
+    color: white;
+
+}
+
+
