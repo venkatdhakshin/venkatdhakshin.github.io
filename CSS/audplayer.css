@@ -3,14 +3,12 @@
         font-size: 43px;
     }
     body{
-    background-image: url(../Images/pexels-photo-577769.jpeg);
     background-attachment: fixed;
     background-repeat:round;
     background-size:100%;
     height: 100%;
 }
 #audplayer{
-background-image: url(../Images/bg_audpla.jpeg);
     background-attachment: fixed;
     background-size: 100%;
     background-repeat:round;
