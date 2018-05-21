@@ -15,20 +15,54 @@
         </head>
 <body>
     
+    <script>
+    
+    var requestURL =
+    'https://github.com/venkatdhakshin/venkatdhakshin.github.io/blob/master/JS/movie_details.json';
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+        
+        var movie_details = request.response;
+        movie_det(movie_details);
+        
+        
+        
+        function movie_det(json_obj)
+        {
+          var mlist=json_obj['2.0'] ;
+            var name=mlist.name;
+            var music=mlist.music;
+            var director=mlist.director;
+            var starring=mlist.starring;
+            var year=mlist.year;
+            document.getElementById("m_name").innerHTML=name;
+            document.getElementById("mdir").innerHTML=music;
+            document.getElementById("direc").innerHTML=director;
+            document.getElementById("star").innerHTML=starring;
+            document.getElementById("year").innerHTML=year;
+        }
+    }
+    
+    </script>
+
+    
 <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
     <div class="move1">
      <div class="songs_d">
          <dl> 
         <dt><b>Movie:</b></dt>
-            <dd>2.0</dd>
+            <dd id="m_name"></dd>
         <dt><b>Music:</b></dt>
-            <dd>AR Rahman</dd>
+            <dd id="mdir"></dd>
         <dt><b>Director:</b></dt>
-            <dd>Shankar</dd>
+            <dd id="direc"></dd>
         <dt><b>Starring:</b></dt>
-            <dd>Rajinikanth, AkshayKumar</dd>
+            <dd id="star"></dd>
         <dt><b>Year:</b></dt>
-            <dd>2017</dd>
+            <dd id="year"></dd>
          </dl>
     </div>
         <br>
@@ -63,5 +97,5 @@
         </div>
     <script src="../JS/jquery-3.2.1.min.js"></script>
     <script src="../JS/Nav_aud.js"></script>
-    </body>
+        </body>
 </html>
