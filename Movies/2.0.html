@@ -33,11 +33,11 @@
         function movie_det(json_obj)
         {
           var mlist=json_obj['2.0'] ;
-            var name=mlist.name;
-            var music=mlist.music;
-            var director=mlist.director;
-            var starring=mlist.starring;
-            var year=mlist.year;
+            var name=mlist[0].name;
+            var music=mlist[0].music;
+            var director=mlist[0].director;
+            var starring=mlist[0].starring;
+            var year=mlist[0].year;
             document.getElementById("m_name").innerHTML=name;
             document.getElementById("mdir").innerHTML=music;
             document.getElementById("direc").innerHTML=director;
