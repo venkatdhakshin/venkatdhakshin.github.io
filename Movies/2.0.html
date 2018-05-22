@@ -1,7 +1,7 @@
 <html>
     <head>
-<title>
-2.0
+<title id="title">
+twopointO
 </title>
         <link href="../CSS/songs_css.css" rel="stylesheet" type="text/css">
             <link href="../CSS/audplayer.css" rel="stylesheet" type="text/css">
@@ -17,7 +17,6 @@
     
 <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
     <script>
-    
     var requestURL ='https://venkatdhakshin.github.io/JS/movie_details.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
@@ -32,13 +31,15 @@
         
         function movie_det(json_obj)
         {
-          var mlist=json_obj['2.0'] ;
+            var movie_name=document.getElementById("title").innerHTML;
+          var mlist=json_obj[movie_name];
+            console.log(movie_name);
             var name=mlist[0].name;
             var music=mlist[0].music;
             var director=mlist[0].director;
             var starring=mlist[0].starring;
             var year=mlist[0].year;
-            console.log(name);
+            
             document.getElementById("m_name").innerHTML=name;
             document.getElementById("mdir").innerHTML=music;
             document.getElementById("direc").innerHTML=director;
