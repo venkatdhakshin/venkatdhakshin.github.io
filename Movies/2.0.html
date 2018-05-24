@@ -1,7 +1,7 @@
 <html>
     <head>
 <title id="title">
-twopointO
+2.0
 </title>
         <link href="../CSS/songs_css.css" rel="stylesheet" type="text/css">
             <link href="../CSS/audplayer.css" rel="stylesheet" type="text/css">
@@ -11,45 +11,11 @@ twopointO
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="../../CSS/mob.css" rel="stylesheet" type="text/css">
 
+ 
 
         </head>
 <body>
-    
 <header class="aud_design"><h1><b>LIV MUSIC</b></h1></header>
-    <script>
-    var requestURL ='https://venkatdhakshin.github.io/JS/movie_details.json';
-    var request = new XMLHttpRequest();
-    request.open('GET', requestURL);
-    request.responseType = 'json';
-    request.send();
-    request.onload = function() {
-        
-        var movie_details = request.response;
-        movie_det(movie_details);
-    }
-        
-        
-        function movie_det(json_obj)
-        {
-            var movie_name=document.getElementById("title").innerHTML;
-          var mlist=json_obj[movie_name];
-            console.log(movie_name);
-            var name=mlist[0].name;
-            var music=mlist[0].music;
-            var director=mlist[0].director;
-            var starring=mlist[0].starring;
-            var year=mlist[0].year;
-            
-            document.getElementById("m_name").innerHTML=name;
-            document.getElementById("mdir").innerHTML=music;
-            document.getElementById("direc").innerHTML=director;
-            document.getElementById("star").innerHTML=starring;
-            document.getElementById("year").innerHTML=year;
-        }
-    
-    
-    </script>
-
     <div class="move1">
      <div class="songs_d">
          <dl> 
@@ -97,5 +63,8 @@ twopointO
         </div>
     <script src="../JS/jquery-3.2.1.min.js"></script>
     <script src="../JS/Nav_aud.js"></script>
-        </body>
+    <script src="../JS/Json.js"></script>
+
+    
+</body>
 </html>
