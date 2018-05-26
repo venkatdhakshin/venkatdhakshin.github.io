@@ -8,7 +8,7 @@
       "year": 2017
     }
      ],
-    "Baahubali-2": [
+"Baahubali-2": [
     {
       "name": "Baahubali-2",
       "music": "M.M.Keeravani",
@@ -16,5 +16,205 @@
       "starring": "Prabhas, Rana",
       "year": 2017
     }
-     ]
+     ],
+    "Dhuruvangal Pathinaaru": [
+    {
+      "name": "Dhuruvangal Pathinaaru",
+      "music": "Jakes Bejoy",
+        "director":"Karthick Naren",
+      "starring": "Rahman",
+      "year": 2016
     }
+     ],
+    "Enai Nokki Paayum Thotta": [
+    {
+      "name": "Enai Nokki Paayum Thotta",
+      "music": "Durbuka Shiva",
+        "director":"Gautham Menon",
+      "starring": "Dhanush",
+      "year": 2017
+    }
+     ],
+"Kaatru Veliyidai": [
+    {
+      "name": "Kaatru Veliyidai",
+      "music": "A.R Rahman",
+        "director":"Mani Rathnam",
+      "starring": "Karthi, Aditi Rao",
+      "year": 2017
+    }
+     ],
+
+"Karuppan": [
+    {
+      "name": "Karuppan",
+      "music": "D.Imman",
+        "director":"&nbsp;",
+      "starring": "Vijay Sethupathi",
+      "year": 2017
+    }
+     ],
+"Kodi": [
+    {
+      "name": "Kodi",
+      "music": "Santhosh Narayanan",
+        "director":"&nbsp;",
+      "starring": "Dhanush",
+      "year": 2016
+    }
+     ],
+"Maari": [
+    {
+      "name": "Maari",
+      "music": "Anirudh",
+        "director":"Balaji Mohan",
+      "starring": "Dhanush, Kajal",
+      "year": 2015
+    }
+     ],
+"Magalir Mattum": [
+    {
+      "name": "Magalir Mattum",
+      "music": "Ghibran",
+        "director":"&nbsp;",
+      "starring": "Jyothika",
+      "year": 2017
+    }
+     ],
+"Mersal": [
+    {
+      "name": "Mersal",
+      "music": "A.R Rahman",
+        "director":"Atlee",
+      "starring": "Vijay,kajal,samantha",
+      "year": 2017
+    }
+     ],
+"Meyaadha Maan": [
+    {
+      "name": "Meyaadha Maan",
+      "music": "Santhosh Narayanan",
+        "director":"Rathna kumar",
+      "starring": "Vaibhav,priya",
+      "year": 2017
+    }
+     ],
+"Naanum Rowdy Dhaan": [
+    {
+      "name": "Naanum Rowdy Dhaan",
+      "music": "Anirudh",
+        "director":"Vignesh Shivan",
+      "starring": "Vijay Sethupathi,Nayanthara",
+      "year": 2015
+    }
+     ],
+    "Power Paandi": [
+    {
+      "name": "Power Paandi",
+      "music": "Sean Rolden",
+        "director":"Dhanush",
+      "starring": "Dhanush, Rajkiran",
+      "year": 2017
+    }
+     ],
+"Sakka Podu Podu Raja": [
+    {
+      "name": "Sakka Podu Podu Raja",
+      "music": "Simbu",
+        "director":"&nbsp;",
+      "starring": "Santhanam",
+      "year": 2017
+    }
+     ],
+"Server Sundharam": [
+    {
+      "name": "Server Sundharam",
+      "music": "Santhosh Narayanan",
+        "director":"&nbsp;",
+      "starring": "Santhanam",
+      "year": 2017
+    }
+     ],
+"Solo": [
+    {
+      "name": "Solo",
+      "music": "Govind menon &amp; Prashanth pillai",
+        "director":"Bejoy nambiar",
+      "starring": "Dulquer salman",
+      "year": 2017
+    }
+     ],
+"Thaana Serntha Koottam": [
+    {
+      "name": "Thaana Serntha Koottam",
+      "music": "Anirudh",
+        "director":"Vignesh Shivan",
+      "starring": "Surya,Keerthi suresh",
+      "year": 2017
+    }
+     ],
+"Theeran Adhigaram Ondru": [
+    {
+      "name": "Theeran Adhigaram Ondru",
+      "music": "Ghibran",
+        "director":"Vinoth",
+      "starring": "Karthi",
+      "year": 2017
+    }
+     ],
+"Tik Tik Tik": [
+    {
+      "name": "Tik Tik Tik",
+      "music": "D.Imman",
+        "director":"&nbsp;",
+      "starring": "Jayam Ravi",
+      "year": 2017
+    }
+     ],
+"Velaikaaran": [
+    {
+      "name": "Velaikaaran",
+      "music": "Anirudh",
+        "director":"Mohan Raja",
+      "starring": "Siva Karthikeyan, Fahadh Faasil,Nayanthara",
+      "year": 2017
+    }
+     ],
+"Vikram Vedha": [
+    {
+      "name": "Vikram Vedha",
+      "music": "Sam C.S",
+        "director":"Pushkar &amp; Gayathri",
+      "starring": "Madhavan, Vijaya sethupathi",
+      "year": 2017
+    }
+     ],
+"VIP-2": [
+    {
+      "name": "VIP-2",
+      "music": "Sean Rolden",
+        "director":"Soundarya Rajinikanth",
+      "starring": "Dhanush, Amala Paul, Kajol",
+      "year": 2017
+    }
+     ],
+"Vishwaroopam": [
+    {
+      "name": "Vishwaroopam",
+      "music": "Shankar–Ehsaan–Loy",
+        "director":"Kamal Haasan",
+      "starring": "Kamal Haasan",
+      "year": 2013
+    }
+     ],
+"Vivegam": [
+    {
+      "name": "Vivegam",
+      "music": "Anirudh",
+        "director":"Siva",
+      "starring": "Ajith,vivek oberoi,kajal",
+      "year": 2017
+    }
+     ]
+
+}
