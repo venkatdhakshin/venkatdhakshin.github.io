@@ -324,7 +324,7 @@ nav #menu li
            }
 
 #menu li a .hov:hover{
-    color: white !important;
+    color: white;
 }
 
 
@@ -375,13 +375,14 @@ nav.shrink
 }
 nav.shrink header a h1{
     font-size: 30px;
-    top: -7px;
+    top: -14px;
     color: white;
+    left:-10px;
 }
 nav.shrink #menu li a{
     color: white;
     font-size: 17;
-    top:-7px;
+    top:-14px;
 }
 nav.shrink #menu li a:hover{
     color:#3b5998;
